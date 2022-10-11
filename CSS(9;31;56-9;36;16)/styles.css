@@ -1,0 +1,13 @@
+/* Descendant and Child Combinators */
+.header h1 {
+    color: green;
+}
+.header > h1 {
+    color: purple;
+}
+div h1 {
+    color: red;
+}
+div > h1 {
+    color: blue;
+}
